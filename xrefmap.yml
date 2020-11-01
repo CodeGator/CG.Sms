@@ -92,38 +92,6 @@ references:
   isSpec: "True"
   fullName: CG.Sms.Options.SmsServiceOptions.Strategy
   nameWithType: SmsServiceOptions.Strategy
-- uid: CG.Sms.Options.SmsStrategyOptions
-  name: SmsStrategyOptions
-  href: api/CG.Sms.Options.SmsStrategyOptions.html
-  commentId: T:CG.Sms.Options.SmsStrategyOptions
-  fullName: CG.Sms.Options.SmsStrategyOptions
-  nameWithType: SmsStrategyOptions
-- uid: CG.Sms.Options.SmsStrategyOptions.Assembly
-  name: Assembly
-  href: api/CG.Sms.Options.SmsStrategyOptions.html#CG_Sms_Options_SmsStrategyOptions_Assembly
-  commentId: P:CG.Sms.Options.SmsStrategyOptions.Assembly
-  fullName: CG.Sms.Options.SmsStrategyOptions.Assembly
-  nameWithType: SmsStrategyOptions.Assembly
-- uid: CG.Sms.Options.SmsStrategyOptions.Assembly*
-  name: Assembly
-  href: api/CG.Sms.Options.SmsStrategyOptions.html#CG_Sms_Options_SmsStrategyOptions_Assembly_
-  commentId: Overload:CG.Sms.Options.SmsStrategyOptions.Assembly
-  isSpec: "True"
-  fullName: CG.Sms.Options.SmsStrategyOptions.Assembly
-  nameWithType: SmsStrategyOptions.Assembly
-- uid: CG.Sms.Options.SmsStrategyOptions.Name
-  name: Name
-  href: api/CG.Sms.Options.SmsStrategyOptions.html#CG_Sms_Options_SmsStrategyOptions_Name
-  commentId: P:CG.Sms.Options.SmsStrategyOptions.Name
-  fullName: CG.Sms.Options.SmsStrategyOptions.Name
-  nameWithType: SmsStrategyOptions.Name
-- uid: CG.Sms.Options.SmsStrategyOptions.Name*
-  name: Name
-  href: api/CG.Sms.Options.SmsStrategyOptions.html#CG_Sms_Options_SmsStrategyOptions_Name_
-  commentId: Overload:CG.Sms.Options.SmsStrategyOptions.Name
-  isSpec: "True"
-  fullName: CG.Sms.Options.SmsStrategyOptions.Name
-  nameWithType: SmsStrategyOptions.Name
 - uid: CG.Sms.SmsResult
   name: SmsResult
   href: api/CG.Sms.SmsResult.html
@@ -275,6 +243,53 @@ references:
   isSpec: "True"
   fullName: CG.Sms.Strategies.ISmsStrategy.SendAsync
   nameWithType: ISmsStrategy.SendAsync
+- uid: CG.Sms.Strategies.ISmsStrategy`1
+  name: ISmsStrategy<TOptions>
+  href: api/CG.Sms.Strategies.ISmsStrategy-1.html
+  commentId: T:CG.Sms.Strategies.ISmsStrategy`1
+  name.vb: ISmsStrategy(Of TOptions)
+  fullName: CG.Sms.Strategies.ISmsStrategy<TOptions>
+  fullName.vb: CG.Sms.Strategies.ISmsStrategy(Of TOptions)
+  nameWithType: ISmsStrategy<TOptions>
+  nameWithType.vb: ISmsStrategy(Of TOptions)
+- uid: CG.Sms.Strategies.Options
+  name: CG.Sms.Strategies.Options
+  href: api/CG.Sms.Strategies.Options.html
+  commentId: N:CG.Sms.Strategies.Options
+  fullName: CG.Sms.Strategies.Options
+  nameWithType: CG.Sms.Strategies.Options
+- uid: CG.Sms.Strategies.Options.SmsStrategyOptions
+  name: SmsStrategyOptions
+  href: api/CG.Sms.Strategies.Options.SmsStrategyOptions.html
+  commentId: T:CG.Sms.Strategies.Options.SmsStrategyOptions
+  fullName: CG.Sms.Strategies.Options.SmsStrategyOptions
+  nameWithType: SmsStrategyOptions
+- uid: CG.Sms.Strategies.Options.SmsStrategyOptions.Assembly
+  name: Assembly
+  href: api/CG.Sms.Strategies.Options.SmsStrategyOptions.html#CG_Sms_Strategies_Options_SmsStrategyOptions_Assembly
+  commentId: P:CG.Sms.Strategies.Options.SmsStrategyOptions.Assembly
+  fullName: CG.Sms.Strategies.Options.SmsStrategyOptions.Assembly
+  nameWithType: SmsStrategyOptions.Assembly
+- uid: CG.Sms.Strategies.Options.SmsStrategyOptions.Assembly*
+  name: Assembly
+  href: api/CG.Sms.Strategies.Options.SmsStrategyOptions.html#CG_Sms_Strategies_Options_SmsStrategyOptions_Assembly_
+  commentId: Overload:CG.Sms.Strategies.Options.SmsStrategyOptions.Assembly
+  isSpec: "True"
+  fullName: CG.Sms.Strategies.Options.SmsStrategyOptions.Assembly
+  nameWithType: SmsStrategyOptions.Assembly
+- uid: CG.Sms.Strategies.Options.SmsStrategyOptions.Name
+  name: Name
+  href: api/CG.Sms.Strategies.Options.SmsStrategyOptions.html#CG_Sms_Strategies_Options_SmsStrategyOptions_Name
+  commentId: P:CG.Sms.Strategies.Options.SmsStrategyOptions.Name
+  fullName: CG.Sms.Strategies.Options.SmsStrategyOptions.Name
+  nameWithType: SmsStrategyOptions.Name
+- uid: CG.Sms.Strategies.Options.SmsStrategyOptions.Name*
+  name: Name
+  href: api/CG.Sms.Strategies.Options.SmsStrategyOptions.html#CG_Sms_Strategies_Options_SmsStrategyOptions_Name_
+  commentId: Overload:CG.Sms.Strategies.Options.SmsStrategyOptions.Name
+  isSpec: "True"
+  fullName: CG.Sms.Strategies.Options.SmsStrategyOptions.Name
+  nameWithType: SmsStrategyOptions.Name
 - uid: CG.Sms.Strategies.SmsStrategyBase
   name: SmsStrategyBase
   href: api/CG.Sms.Strategies.SmsStrategyBase.html
@@ -297,6 +312,51 @@ references:
   isSpec: "True"
   fullName: CG.Sms.Strategies.SmsStrategyBase.SendAsync
   nameWithType: SmsStrategyBase.SendAsync
+- uid: CG.Sms.Strategies.SmsStrategyBase`1
+  name: SmsStrategyBase<TOptions>
+  href: api/CG.Sms.Strategies.SmsStrategyBase-1.html
+  commentId: T:CG.Sms.Strategies.SmsStrategyBase`1
+  name.vb: SmsStrategyBase(Of TOptions)
+  fullName: CG.Sms.Strategies.SmsStrategyBase<TOptions>
+  fullName.vb: CG.Sms.Strategies.SmsStrategyBase(Of TOptions)
+  nameWithType: SmsStrategyBase<TOptions>
+  nameWithType.vb: SmsStrategyBase(Of TOptions)
+- uid: CG.Sms.Strategies.SmsStrategyBase`1.#ctor(Microsoft.Extensions.Options.IOptions{`0})
+  name: SmsStrategyBase(IOptions<TOptions>)
+  href: api/CG.Sms.Strategies.SmsStrategyBase-1.html#CG_Sms_Strategies_SmsStrategyBase_1__ctor_Microsoft_Extensions_Options_IOptions__0__
+  commentId: M:CG.Sms.Strategies.SmsStrategyBase`1.#ctor(Microsoft.Extensions.Options.IOptions{`0})
+  name.vb: SmsStrategyBase(IOptions(Of TOptions))
+  fullName: CG.Sms.Strategies.SmsStrategyBase<TOptions>.SmsStrategyBase(Microsoft.Extensions.Options.IOptions<TOptions>)
+  fullName.vb: CG.Sms.Strategies.SmsStrategyBase(Of TOptions).SmsStrategyBase(Microsoft.Extensions.Options.IOptions(Of TOptions))
+  nameWithType: SmsStrategyBase<TOptions>.SmsStrategyBase(IOptions<TOptions>)
+  nameWithType.vb: SmsStrategyBase(Of TOptions).SmsStrategyBase(IOptions(Of TOptions))
+- uid: CG.Sms.Strategies.SmsStrategyBase`1.#ctor*
+  name: SmsStrategyBase
+  href: api/CG.Sms.Strategies.SmsStrategyBase-1.html#CG_Sms_Strategies_SmsStrategyBase_1__ctor_
+  commentId: Overload:CG.Sms.Strategies.SmsStrategyBase`1.#ctor
+  isSpec: "True"
+  fullName: CG.Sms.Strategies.SmsStrategyBase<TOptions>.SmsStrategyBase
+  fullName.vb: CG.Sms.Strategies.SmsStrategyBase(Of TOptions).SmsStrategyBase
+  nameWithType: SmsStrategyBase<TOptions>.SmsStrategyBase
+  nameWithType.vb: SmsStrategyBase(Of TOptions).SmsStrategyBase
+- uid: CG.Sms.Strategies.SmsStrategyBase`1.SendAsync(System.Collections.Generic.IEnumerable{System.String},System.String,System.Threading.CancellationToken)
+  name: SendAsync(IEnumerable<String>, String, CancellationToken)
+  href: api/CG.Sms.Strategies.SmsStrategyBase-1.html#CG_Sms_Strategies_SmsStrategyBase_1_SendAsync_System_Collections_Generic_IEnumerable_System_String__System_String_System_Threading_CancellationToken_
+  commentId: M:CG.Sms.Strategies.SmsStrategyBase`1.SendAsync(System.Collections.Generic.IEnumerable{System.String},System.String,System.Threading.CancellationToken)
+  name.vb: SendAsync(IEnumerable(Of String), String, CancellationToken)
+  fullName: CG.Sms.Strategies.SmsStrategyBase<TOptions>.SendAsync(System.Collections.Generic.IEnumerable<System.String>, System.String, System.Threading.CancellationToken)
+  fullName.vb: CG.Sms.Strategies.SmsStrategyBase(Of TOptions).SendAsync(System.Collections.Generic.IEnumerable(Of System.String), System.String, System.Threading.CancellationToken)
+  nameWithType: SmsStrategyBase<TOptions>.SendAsync(IEnumerable<String>, String, CancellationToken)
+  nameWithType.vb: SmsStrategyBase(Of TOptions).SendAsync(IEnumerable(Of String), String, CancellationToken)
+- uid: CG.Sms.Strategies.SmsStrategyBase`1.SendAsync*
+  name: SendAsync
+  href: api/CG.Sms.Strategies.SmsStrategyBase-1.html#CG_Sms_Strategies_SmsStrategyBase_1_SendAsync_
+  commentId: Overload:CG.Sms.Strategies.SmsStrategyBase`1.SendAsync
+  isSpec: "True"
+  fullName: CG.Sms.Strategies.SmsStrategyBase<TOptions>.SendAsync
+  fullName.vb: CG.Sms.Strategies.SmsStrategyBase(Of TOptions).SendAsync
+  nameWithType: SmsStrategyBase<TOptions>.SendAsync
+  nameWithType.vb: SmsStrategyBase(Of TOptions).SendAsync
 - uid: Microsoft.Extensions.DependencyInjection
   name: Microsoft.Extensions.DependencyInjection
   href: api/Microsoft.Extensions.DependencyInjection.html

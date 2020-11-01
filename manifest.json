@@ -54,19 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Sms.Options.SmsServiceOptions.html",
-          "hash": "hTk9IDWyIEAT1d7qFoHbMQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Sms.Options.SmsStrategyOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Sms.Options.SmsStrategyOptions.html",
-          "hash": "OMPEiK8ihHqe4eeG3+cqIg=="
+          "hash": "xZQdridrw61WSb0CG2RTIQ=="
         }
       },
       "is_incremental": false,
@@ -78,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Sms.Options.html",
-          "hash": "2+si36SfEsTAVjI16QDOgw=="
+          "hash": "RhEyqq6wVBvprXGgRMP+iA=="
         }
       },
       "is_incremental": false,
@@ -134,11 +122,59 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sms.Strategies.ISmsStrategy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sms.Strategies.ISmsStrategy-1.html",
+          "hash": "ApmIvtDLf1bkEiQunHaJ1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CG.Sms.Strategies.ISmsStrategy.yml",
       "output": {
         ".html": {
           "relative_path": "api/CG.Sms.Strategies.ISmsStrategy.html",
           "hash": "K9DjM5cgXiF/w+Moey4qHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sms.Strategies.Options.SmsStrategyOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sms.Strategies.Options.SmsStrategyOptions.html",
+          "hash": "H9gRPPTjKblg5U1VNBs4nA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sms.Strategies.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sms.Strategies.Options.html",
+          "hash": "wYZAv2Hk7qHkzpGpV22YiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sms.Strategies.SmsStrategyBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sms.Strategies.SmsStrategyBase-1.html",
+          "hash": "Gffli9rl1u5/EYKJrYFRsA=="
         }
       },
       "is_incremental": false,
@@ -162,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Sms.Strategies.html",
-          "hash": "nhEKvUJfj7dqIsMuk+AR3g=="
+          "hash": "giXlQ9gyQBsRQl/s1am1uw=="
         }
       },
       "is_incremental": false,
@@ -246,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "E7bzXguvY84DswvA2t/EGQ=="
+          "hash": "vOZz96SM3J/MJIXvXXXUBw=="
         }
       },
       "is_incremental": false,
@@ -365,7 +401,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 18,
+          "total_file_count": 21,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
