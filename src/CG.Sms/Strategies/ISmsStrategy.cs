@@ -1,4 +1,5 @@
 ﻿using CG.Business.Strategies;
+using CG.Sms.Strategies.Options;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
@@ -23,5 +24,16 @@ namespace CG.Sms.Strategies
             string message,
             CancellationToken token
             );
+    }
+
+
+    /// <summary>
+    /// This interface represents a strategy for sending sms messages.
+    /// </summary>
+    /// <typeparam name="TOptions">The type of associated options.</typeparam>
+    public interface ISmsStrategy<TOptions> : ISmsStrategy
+        where TOptions : SmsStrategyOptions
+    {
+
     }
 }

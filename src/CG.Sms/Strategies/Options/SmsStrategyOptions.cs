@@ -1,7 +1,7 @@
 ﻿using CG.Business.Strategies.Options;
 using System.ComponentModel.DataAnnotations;
 
-namespace CG.Sms.Options
+namespace CG.Sms.Strategies.Options
 {
     /// <summary>
     /// This class contains options information for an sms strategy.
