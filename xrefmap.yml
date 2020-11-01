@@ -1,0 +1,358 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: CG.Sms
+  name: CG.Sms
+  href: api/CG.Sms.html
+  commentId: N:CG.Sms
+  fullName: CG.Sms
+  nameWithType: CG.Sms
+- uid: CG.Sms.Builders
+  name: CG.Sms.Builders
+  href: api/CG.Sms.Builders.html
+  commentId: N:CG.Sms.Builders
+  fullName: CG.Sms.Builders
+  nameWithType: CG.Sms.Builders
+- uid: CG.Sms.Builders.ISmsStrategyBuilder
+  name: ISmsStrategyBuilder
+  href: api/CG.Sms.Builders.ISmsStrategyBuilder.html
+  commentId: T:CG.Sms.Builders.ISmsStrategyBuilder
+  fullName: CG.Sms.Builders.ISmsStrategyBuilder
+  nameWithType: ISmsStrategyBuilder
+- uid: CG.Sms.Builders.ISmsStrategyBuilder.Services
+  name: Services
+  href: api/CG.Sms.Builders.ISmsStrategyBuilder.html#CG_Sms_Builders_ISmsStrategyBuilder_Services
+  commentId: P:CG.Sms.Builders.ISmsStrategyBuilder.Services
+  fullName: CG.Sms.Builders.ISmsStrategyBuilder.Services
+  nameWithType: ISmsStrategyBuilder.Services
+- uid: CG.Sms.Builders.ISmsStrategyBuilder.Services*
+  name: Services
+  href: api/CG.Sms.Builders.ISmsStrategyBuilder.html#CG_Sms_Builders_ISmsStrategyBuilder_Services_
+  commentId: Overload:CG.Sms.Builders.ISmsStrategyBuilder.Services
+  isSpec: "True"
+  fullName: CG.Sms.Builders.ISmsStrategyBuilder.Services
+  nameWithType: ISmsStrategyBuilder.Services
+- uid: CG.Sms.ISmsService
+  name: ISmsService
+  href: api/CG.Sms.ISmsService.html
+  commentId: T:CG.Sms.ISmsService
+  fullName: CG.Sms.ISmsService
+  nameWithType: ISmsService
+- uid: CG.Sms.ISmsService.SendAsync(System.Collections.Generic.IEnumerable{System.String},System.String,System.Threading.CancellationToken)
+  name: SendAsync(IEnumerable<String>, String, CancellationToken)
+  href: api/CG.Sms.ISmsService.html#CG_Sms_ISmsService_SendAsync_System_Collections_Generic_IEnumerable_System_String__System_String_System_Threading_CancellationToken_
+  commentId: M:CG.Sms.ISmsService.SendAsync(System.Collections.Generic.IEnumerable{System.String},System.String,System.Threading.CancellationToken)
+  name.vb: SendAsync(IEnumerable(Of String), String, CancellationToken)
+  fullName: CG.Sms.ISmsService.SendAsync(System.Collections.Generic.IEnumerable<System.String>, System.String, System.Threading.CancellationToken)
+  fullName.vb: CG.Sms.ISmsService.SendAsync(System.Collections.Generic.IEnumerable(Of System.String), System.String, System.Threading.CancellationToken)
+  nameWithType: ISmsService.SendAsync(IEnumerable<String>, String, CancellationToken)
+  nameWithType.vb: ISmsService.SendAsync(IEnumerable(Of String), String, CancellationToken)
+- uid: CG.Sms.ISmsService.SendAsync*
+  name: SendAsync
+  href: api/CG.Sms.ISmsService.html#CG_Sms_ISmsService_SendAsync_
+  commentId: Overload:CG.Sms.ISmsService.SendAsync
+  isSpec: "True"
+  fullName: CG.Sms.ISmsService.SendAsync
+  nameWithType: ISmsService.SendAsync
+- uid: CG.Sms.Options
+  name: CG.Sms.Options
+  href: api/CG.Sms.Options.html
+  commentId: N:CG.Sms.Options
+  fullName: CG.Sms.Options
+  nameWithType: CG.Sms.Options
+- uid: CG.Sms.Options.SmsServiceOptions
+  name: SmsServiceOptions
+  href: api/CG.Sms.Options.SmsServiceOptions.html
+  commentId: T:CG.Sms.Options.SmsServiceOptions
+  fullName: CG.Sms.Options.SmsServiceOptions
+  nameWithType: SmsServiceOptions
+- uid: CG.Sms.Options.SmsServiceOptions.#ctor
+  name: SmsServiceOptions()
+  href: api/CG.Sms.Options.SmsServiceOptions.html#CG_Sms_Options_SmsServiceOptions__ctor
+  commentId: M:CG.Sms.Options.SmsServiceOptions.#ctor
+  fullName: CG.Sms.Options.SmsServiceOptions.SmsServiceOptions()
+  nameWithType: SmsServiceOptions.SmsServiceOptions()
+- uid: CG.Sms.Options.SmsServiceOptions.#ctor*
+  name: SmsServiceOptions
+  href: api/CG.Sms.Options.SmsServiceOptions.html#CG_Sms_Options_SmsServiceOptions__ctor_
+  commentId: Overload:CG.Sms.Options.SmsServiceOptions.#ctor
+  isSpec: "True"
+  fullName: CG.Sms.Options.SmsServiceOptions.SmsServiceOptions
+  nameWithType: SmsServiceOptions.SmsServiceOptions
+- uid: CG.Sms.Options.SmsServiceOptions.Strategy
+  name: Strategy
+  href: api/CG.Sms.Options.SmsServiceOptions.html#CG_Sms_Options_SmsServiceOptions_Strategy
+  commentId: P:CG.Sms.Options.SmsServiceOptions.Strategy
+  fullName: CG.Sms.Options.SmsServiceOptions.Strategy
+  nameWithType: SmsServiceOptions.Strategy
+- uid: CG.Sms.Options.SmsServiceOptions.Strategy*
+  name: Strategy
+  href: api/CG.Sms.Options.SmsServiceOptions.html#CG_Sms_Options_SmsServiceOptions_Strategy_
+  commentId: Overload:CG.Sms.Options.SmsServiceOptions.Strategy
+  isSpec: "True"
+  fullName: CG.Sms.Options.SmsServiceOptions.Strategy
+  nameWithType: SmsServiceOptions.Strategy
+- uid: CG.Sms.Options.SmsStrategyOptions
+  name: SmsStrategyOptions
+  href: api/CG.Sms.Options.SmsStrategyOptions.html
+  commentId: T:CG.Sms.Options.SmsStrategyOptions
+  fullName: CG.Sms.Options.SmsStrategyOptions
+  nameWithType: SmsStrategyOptions
+- uid: CG.Sms.Options.SmsStrategyOptions.Assembly
+  name: Assembly
+  href: api/CG.Sms.Options.SmsStrategyOptions.html#CG_Sms_Options_SmsStrategyOptions_Assembly
+  commentId: P:CG.Sms.Options.SmsStrategyOptions.Assembly
+  fullName: CG.Sms.Options.SmsStrategyOptions.Assembly
+  nameWithType: SmsStrategyOptions.Assembly
+- uid: CG.Sms.Options.SmsStrategyOptions.Assembly*
+  name: Assembly
+  href: api/CG.Sms.Options.SmsStrategyOptions.html#CG_Sms_Options_SmsStrategyOptions_Assembly_
+  commentId: Overload:CG.Sms.Options.SmsStrategyOptions.Assembly
+  isSpec: "True"
+  fullName: CG.Sms.Options.SmsStrategyOptions.Assembly
+  nameWithType: SmsStrategyOptions.Assembly
+- uid: CG.Sms.Options.SmsStrategyOptions.Name
+  name: Name
+  href: api/CG.Sms.Options.SmsStrategyOptions.html#CG_Sms_Options_SmsStrategyOptions_Name
+  commentId: P:CG.Sms.Options.SmsStrategyOptions.Name
+  fullName: CG.Sms.Options.SmsStrategyOptions.Name
+  nameWithType: SmsStrategyOptions.Name
+- uid: CG.Sms.Options.SmsStrategyOptions.Name*
+  name: Name
+  href: api/CG.Sms.Options.SmsStrategyOptions.html#CG_Sms_Options_SmsStrategyOptions_Name_
+  commentId: Overload:CG.Sms.Options.SmsStrategyOptions.Name
+  isSpec: "True"
+  fullName: CG.Sms.Options.SmsStrategyOptions.Name
+  nameWithType: SmsStrategyOptions.Name
+- uid: CG.Sms.SmsResult
+  name: SmsResult
+  href: api/CG.Sms.SmsResult.html
+  commentId: T:CG.Sms.SmsResult
+  fullName: CG.Sms.SmsResult
+  nameWithType: SmsResult
+- uid: CG.Sms.SmsResult.SmsId
+  name: SmsId
+  href: api/CG.Sms.SmsResult.html#CG_Sms_SmsResult_SmsId
+  commentId: P:CG.Sms.SmsResult.SmsId
+  fullName: CG.Sms.SmsResult.SmsId
+  nameWithType: SmsResult.SmsId
+- uid: CG.Sms.SmsResult.SmsId*
+  name: SmsId
+  href: api/CG.Sms.SmsResult.html#CG_Sms_SmsResult_SmsId_
+  commentId: Overload:CG.Sms.SmsResult.SmsId
+  isSpec: "True"
+  fullName: CG.Sms.SmsResult.SmsId
+  nameWithType: SmsResult.SmsId
+- uid: CG.Sms.SmsService
+  name: SmsService
+  href: api/CG.Sms.SmsService.html
+  commentId: T:CG.Sms.SmsService
+  fullName: CG.Sms.SmsService
+  nameWithType: SmsService
+- uid: CG.Sms.SmsService.#ctor(CG.Sms.Strategies.ISmsStrategy)
+  name: SmsService(ISmsStrategy)
+  href: api/CG.Sms.SmsService.html#CG_Sms_SmsService__ctor_CG_Sms_Strategies_ISmsStrategy_
+  commentId: M:CG.Sms.SmsService.#ctor(CG.Sms.Strategies.ISmsStrategy)
+  fullName: CG.Sms.SmsService.SmsService(CG.Sms.Strategies.ISmsStrategy)
+  nameWithType: SmsService.SmsService(ISmsStrategy)
+- uid: CG.Sms.SmsService.#ctor*
+  name: SmsService
+  href: api/CG.Sms.SmsService.html#CG_Sms_SmsService__ctor_
+  commentId: Overload:CG.Sms.SmsService.#ctor
+  isSpec: "True"
+  fullName: CG.Sms.SmsService.SmsService
+  nameWithType: SmsService.SmsService
+- uid: CG.Sms.SmsService.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/CG.Sms.SmsService.html#CG_Sms_SmsService_Dispose_System_Boolean_
+  commentId: M:CG.Sms.SmsService.Dispose(System.Boolean)
+  fullName: CG.Sms.SmsService.Dispose(System.Boolean)
+  nameWithType: SmsService.Dispose(Boolean)
+- uid: CG.Sms.SmsService.Dispose*
+  name: Dispose
+  href: api/CG.Sms.SmsService.html#CG_Sms_SmsService_Dispose_
+  commentId: Overload:CG.Sms.SmsService.Dispose
+  isSpec: "True"
+  fullName: CG.Sms.SmsService.Dispose
+  nameWithType: SmsService.Dispose
+- uid: CG.Sms.SmsService.SendAsync(System.Collections.Generic.IEnumerable{System.String},System.String,System.Threading.CancellationToken)
+  name: SendAsync(IEnumerable<String>, String, CancellationToken)
+  href: api/CG.Sms.SmsService.html#CG_Sms_SmsService_SendAsync_System_Collections_Generic_IEnumerable_System_String__System_String_System_Threading_CancellationToken_
+  commentId: M:CG.Sms.SmsService.SendAsync(System.Collections.Generic.IEnumerable{System.String},System.String,System.Threading.CancellationToken)
+  name.vb: SendAsync(IEnumerable(Of String), String, CancellationToken)
+  fullName: CG.Sms.SmsService.SendAsync(System.Collections.Generic.IEnumerable<System.String>, System.String, System.Threading.CancellationToken)
+  fullName.vb: CG.Sms.SmsService.SendAsync(System.Collections.Generic.IEnumerable(Of System.String), System.String, System.Threading.CancellationToken)
+  nameWithType: SmsService.SendAsync(IEnumerable<String>, String, CancellationToken)
+  nameWithType.vb: SmsService.SendAsync(IEnumerable(Of String), String, CancellationToken)
+- uid: CG.Sms.SmsService.SendAsync*
+  name: SendAsync
+  href: api/CG.Sms.SmsService.html#CG_Sms_SmsService_SendAsync_
+  commentId: Overload:CG.Sms.SmsService.SendAsync
+  isSpec: "True"
+  fullName: CG.Sms.SmsService.SendAsync
+  nameWithType: SmsService.SendAsync
+- uid: CG.Sms.SmsServiceException
+  name: SmsServiceException
+  href: api/CG.Sms.SmsServiceException.html
+  commentId: T:CG.Sms.SmsServiceException
+  fullName: CG.Sms.SmsServiceException
+  nameWithType: SmsServiceException
+- uid: CG.Sms.SmsServiceException.#ctor
+  name: SmsServiceException()
+  href: api/CG.Sms.SmsServiceException.html#CG_Sms_SmsServiceException__ctor
+  commentId: M:CG.Sms.SmsServiceException.#ctor
+  fullName: CG.Sms.SmsServiceException.SmsServiceException()
+  nameWithType: SmsServiceException.SmsServiceException()
+- uid: CG.Sms.SmsServiceException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: SmsServiceException(SerializationInfo, StreamingContext)
+  href: api/CG.Sms.SmsServiceException.html#CG_Sms_SmsServiceException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:CG.Sms.SmsServiceException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: CG.Sms.SmsServiceException.SmsServiceException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: SmsServiceException.SmsServiceException(SerializationInfo, StreamingContext)
+- uid: CG.Sms.SmsServiceException.#ctor(System.String)
+  name: SmsServiceException(String)
+  href: api/CG.Sms.SmsServiceException.html#CG_Sms_SmsServiceException__ctor_System_String_
+  commentId: M:CG.Sms.SmsServiceException.#ctor(System.String)
+  fullName: CG.Sms.SmsServiceException.SmsServiceException(System.String)
+  nameWithType: SmsServiceException.SmsServiceException(String)
+- uid: CG.Sms.SmsServiceException.#ctor(System.String,System.Exception)
+  name: SmsServiceException(String, Exception)
+  href: api/CG.Sms.SmsServiceException.html#CG_Sms_SmsServiceException__ctor_System_String_System_Exception_
+  commentId: M:CG.Sms.SmsServiceException.#ctor(System.String,System.Exception)
+  fullName: CG.Sms.SmsServiceException.SmsServiceException(System.String, System.Exception)
+  nameWithType: SmsServiceException.SmsServiceException(String, Exception)
+- uid: CG.Sms.SmsServiceException.#ctor*
+  name: SmsServiceException
+  href: api/CG.Sms.SmsServiceException.html#CG_Sms_SmsServiceException__ctor_
+  commentId: Overload:CG.Sms.SmsServiceException.#ctor
+  isSpec: "True"
+  fullName: CG.Sms.SmsServiceException.SmsServiceException
+  nameWithType: SmsServiceException.SmsServiceException
+- uid: CG.Sms.SmsStrategyBuilderExtensions
+  name: SmsStrategyBuilderExtensions
+  href: api/CG.Sms.SmsStrategyBuilderExtensions.html
+  commentId: T:CG.Sms.SmsStrategyBuilderExtensions
+  fullName: CG.Sms.SmsStrategyBuilderExtensions
+  nameWithType: SmsStrategyBuilderExtensions
+- uid: CG.Sms.SmsStrategyBuilderExtensions.AddDoNothingStrategy(CG.Sms.Builders.ISmsStrategyBuilder,Microsoft.Extensions.Configuration.IConfiguration)
+  name: AddDoNothingStrategy(ISmsStrategyBuilder, IConfiguration)
+  href: api/CG.Sms.SmsStrategyBuilderExtensions.html#CG_Sms_SmsStrategyBuilderExtensions_AddDoNothingStrategy_CG_Sms_Builders_ISmsStrategyBuilder_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:CG.Sms.SmsStrategyBuilderExtensions.AddDoNothingStrategy(CG.Sms.Builders.ISmsStrategyBuilder,Microsoft.Extensions.Configuration.IConfiguration)
+  fullName: CG.Sms.SmsStrategyBuilderExtensions.AddDoNothingStrategy(CG.Sms.Builders.ISmsStrategyBuilder, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: SmsStrategyBuilderExtensions.AddDoNothingStrategy(ISmsStrategyBuilder, IConfiguration)
+- uid: CG.Sms.SmsStrategyBuilderExtensions.AddDoNothingStrategy*
+  name: AddDoNothingStrategy
+  href: api/CG.Sms.SmsStrategyBuilderExtensions.html#CG_Sms_SmsStrategyBuilderExtensions_AddDoNothingStrategy_
+  commentId: Overload:CG.Sms.SmsStrategyBuilderExtensions.AddDoNothingStrategy
+  isSpec: "True"
+  fullName: CG.Sms.SmsStrategyBuilderExtensions.AddDoNothingStrategy
+  nameWithType: SmsStrategyBuilderExtensions.AddDoNothingStrategy
+- uid: CG.Sms.Strategies
+  name: CG.Sms.Strategies
+  href: api/CG.Sms.Strategies.html
+  commentId: N:CG.Sms.Strategies
+  fullName: CG.Sms.Strategies
+  nameWithType: CG.Sms.Strategies
+- uid: CG.Sms.Strategies.ISmsStrategy
+  name: ISmsStrategy
+  href: api/CG.Sms.Strategies.ISmsStrategy.html
+  commentId: T:CG.Sms.Strategies.ISmsStrategy
+  fullName: CG.Sms.Strategies.ISmsStrategy
+  nameWithType: ISmsStrategy
+- uid: CG.Sms.Strategies.ISmsStrategy.SendAsync(System.Collections.Generic.IEnumerable{System.String},System.String,System.Threading.CancellationToken)
+  name: SendAsync(IEnumerable<String>, String, CancellationToken)
+  href: api/CG.Sms.Strategies.ISmsStrategy.html#CG_Sms_Strategies_ISmsStrategy_SendAsync_System_Collections_Generic_IEnumerable_System_String__System_String_System_Threading_CancellationToken_
+  commentId: M:CG.Sms.Strategies.ISmsStrategy.SendAsync(System.Collections.Generic.IEnumerable{System.String},System.String,System.Threading.CancellationToken)
+  name.vb: SendAsync(IEnumerable(Of String), String, CancellationToken)
+  fullName: CG.Sms.Strategies.ISmsStrategy.SendAsync(System.Collections.Generic.IEnumerable<System.String>, System.String, System.Threading.CancellationToken)
+  fullName.vb: CG.Sms.Strategies.ISmsStrategy.SendAsync(System.Collections.Generic.IEnumerable(Of System.String), System.String, System.Threading.CancellationToken)
+  nameWithType: ISmsStrategy.SendAsync(IEnumerable<String>, String, CancellationToken)
+  nameWithType.vb: ISmsStrategy.SendAsync(IEnumerable(Of String), String, CancellationToken)
+- uid: CG.Sms.Strategies.ISmsStrategy.SendAsync*
+  name: SendAsync
+  href: api/CG.Sms.Strategies.ISmsStrategy.html#CG_Sms_Strategies_ISmsStrategy_SendAsync_
+  commentId: Overload:CG.Sms.Strategies.ISmsStrategy.SendAsync
+  isSpec: "True"
+  fullName: CG.Sms.Strategies.ISmsStrategy.SendAsync
+  nameWithType: ISmsStrategy.SendAsync
+- uid: CG.Sms.Strategies.SmsStrategyBase
+  name: SmsStrategyBase
+  href: api/CG.Sms.Strategies.SmsStrategyBase.html
+  commentId: T:CG.Sms.Strategies.SmsStrategyBase
+  fullName: CG.Sms.Strategies.SmsStrategyBase
+  nameWithType: SmsStrategyBase
+- uid: CG.Sms.Strategies.SmsStrategyBase.SendAsync(System.Collections.Generic.IEnumerable{System.String},System.String,System.Threading.CancellationToken)
+  name: SendAsync(IEnumerable<String>, String, CancellationToken)
+  href: api/CG.Sms.Strategies.SmsStrategyBase.html#CG_Sms_Strategies_SmsStrategyBase_SendAsync_System_Collections_Generic_IEnumerable_System_String__System_String_System_Threading_CancellationToken_
+  commentId: M:CG.Sms.Strategies.SmsStrategyBase.SendAsync(System.Collections.Generic.IEnumerable{System.String},System.String,System.Threading.CancellationToken)
+  name.vb: SendAsync(IEnumerable(Of String), String, CancellationToken)
+  fullName: CG.Sms.Strategies.SmsStrategyBase.SendAsync(System.Collections.Generic.IEnumerable<System.String>, System.String, System.Threading.CancellationToken)
+  fullName.vb: CG.Sms.Strategies.SmsStrategyBase.SendAsync(System.Collections.Generic.IEnumerable(Of System.String), System.String, System.Threading.CancellationToken)
+  nameWithType: SmsStrategyBase.SendAsync(IEnumerable<String>, String, CancellationToken)
+  nameWithType.vb: SmsStrategyBase.SendAsync(IEnumerable(Of String), String, CancellationToken)
+- uid: CG.Sms.Strategies.SmsStrategyBase.SendAsync*
+  name: SendAsync
+  href: api/CG.Sms.Strategies.SmsStrategyBase.html#CG_Sms_Strategies_SmsStrategyBase_SendAsync_
+  commentId: Overload:CG.Sms.Strategies.SmsStrategyBase.SendAsync
+  isSpec: "True"
+  fullName: CG.Sms.Strategies.SmsStrategyBase.SendAsync
+  nameWithType: SmsStrategyBase.SendAsync
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  href: api/Microsoft.Extensions.DependencyInjection.html
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  name: ServiceCollectionExtensions
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html
+  commentId: T:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  nameWithType: ServiceCollectionExtensions
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddSms(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name: AddSms(IServiceCollection, IConfiguration)
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddSms_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddSms(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddSms(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: ServiceCollectionExtensions.AddSms(IServiceCollection, IConfiguration)
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddSms(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{CG.Sms.Builders.ISmsStrategyBuilder})
+  name: AddSms(IServiceCollection, Action<ISmsStrategyBuilder>)
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddSms_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_CG_Sms_Builders_ISmsStrategyBuilder__
+  commentId: M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddSms(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{CG.Sms.Builders.ISmsStrategyBuilder})
+  name.vb: AddSms(IServiceCollection, Action(Of ISmsStrategyBuilder))
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddSms(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<CG.Sms.Builders.ISmsStrategyBuilder>)
+  fullName.vb: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddSms(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of CG.Sms.Builders.ISmsStrategyBuilder))
+  nameWithType: ServiceCollectionExtensions.AddSms(IServiceCollection, Action<ISmsStrategyBuilder>)
+  nameWithType.vb: ServiceCollectionExtensions.AddSms(IServiceCollection, Action(Of ISmsStrategyBuilder))
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddSms*
+  name: AddSms
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddSms_
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddSms
+  isSpec: "True"
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddSms
+  nameWithType: ServiceCollectionExtensions.AddSms
+- uid: Microsoft.Extensions.Hosting
+  name: Microsoft.Extensions.Hosting
+  href: api/Microsoft.Extensions.Hosting.html
+  commentId: N:Microsoft.Extensions.Hosting
+  fullName: Microsoft.Extensions.Hosting
+  nameWithType: Microsoft.Extensions.Hosting
+- uid: Microsoft.Extensions.Hosting.HostBuilderExtensions
+  name: HostBuilderExtensions
+  href: api/Microsoft.Extensions.Hosting.HostBuilderExtensions.html
+  commentId: T:Microsoft.Extensions.Hosting.HostBuilderExtensions
+  fullName: Microsoft.Extensions.Hosting.HostBuilderExtensions
+  nameWithType: HostBuilderExtensions
+- uid: Microsoft.Extensions.Hosting.HostBuilderExtensions.AddSms(Microsoft.Extensions.Hosting.IHostBuilder)
+  name: AddSms(IHostBuilder)
+  href: api/Microsoft.Extensions.Hosting.HostBuilderExtensions.html#Microsoft_Extensions_Hosting_HostBuilderExtensions_AddSms_Microsoft_Extensions_Hosting_IHostBuilder_
+  commentId: M:Microsoft.Extensions.Hosting.HostBuilderExtensions.AddSms(Microsoft.Extensions.Hosting.IHostBuilder)
+  fullName: Microsoft.Extensions.Hosting.HostBuilderExtensions.AddSms(Microsoft.Extensions.Hosting.IHostBuilder)
+  nameWithType: HostBuilderExtensions.AddSms(IHostBuilder)
+- uid: Microsoft.Extensions.Hosting.HostBuilderExtensions.AddSms*
+  name: AddSms
+  href: api/Microsoft.Extensions.Hosting.HostBuilderExtensions.html#Microsoft_Extensions_Hosting_HostBuilderExtensions_AddSms_
+  commentId: Overload:Microsoft.Extensions.Hosting.HostBuilderExtensions.AddSms
+  isSpec: "True"
+  fullName: Microsoft.Extensions.Hosting.HostBuilderExtensions.AddSms
+  nameWithType: HostBuilderExtensions.AddSms
