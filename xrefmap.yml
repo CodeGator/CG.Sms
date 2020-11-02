@@ -92,6 +92,44 @@ references:
   isSpec: "True"
   fullName: CG.Sms.Options.SmsServiceOptions.Strategy
   nameWithType: SmsServiceOptions.Strategy
+- uid: CG.Sms.Options.SmsStrategyOptions
+  name: SmsStrategyOptions
+  href: api/CG.Sms.Options.SmsStrategyOptions.html
+  commentId: T:CG.Sms.Options.SmsStrategyOptions
+  fullName: CG.Sms.Options.SmsStrategyOptions
+  nameWithType: SmsStrategyOptions
+- uid: CG.Sms.Options.SmsStrategyOptions.Assembly
+  name: Assembly
+  href: api/CG.Sms.Options.SmsStrategyOptions.html#CG_Sms_Options_SmsStrategyOptions_Assembly
+  commentId: P:CG.Sms.Options.SmsStrategyOptions.Assembly
+  fullName: CG.Sms.Options.SmsStrategyOptions.Assembly
+  nameWithType: SmsStrategyOptions.Assembly
+- uid: CG.Sms.Options.SmsStrategyOptions.Assembly*
+  name: Assembly
+  href: api/CG.Sms.Options.SmsStrategyOptions.html#CG_Sms_Options_SmsStrategyOptions_Assembly_
+  commentId: Overload:CG.Sms.Options.SmsStrategyOptions.Assembly
+  isSpec: "True"
+  fullName: CG.Sms.Options.SmsStrategyOptions.Assembly
+  nameWithType: SmsStrategyOptions.Assembly
+- uid: CG.Sms.Options.SmsStrategyOptions.Name
+  name: Name
+  href: api/CG.Sms.Options.SmsStrategyOptions.html#CG_Sms_Options_SmsStrategyOptions_Name
+  commentId: P:CG.Sms.Options.SmsStrategyOptions.Name
+  fullName: CG.Sms.Options.SmsStrategyOptions.Name
+  nameWithType: SmsStrategyOptions.Name
+- uid: CG.Sms.Options.SmsStrategyOptions.Name*
+  name: Name
+  href: api/CG.Sms.Options.SmsStrategyOptions.html#CG_Sms_Options_SmsStrategyOptions_Name_
+  commentId: Overload:CG.Sms.Options.SmsStrategyOptions.Name
+  isSpec: "True"
+  fullName: CG.Sms.Options.SmsStrategyOptions.Name
+  nameWithType: SmsStrategyOptions.Name
+- uid: CG.Sms.Options.SmsStrategyOptionsBase
+  name: SmsStrategyOptionsBase
+  href: api/CG.Sms.Options.SmsStrategyOptionsBase.html
+  commentId: T:CG.Sms.Options.SmsStrategyOptionsBase
+  fullName: CG.Sms.Options.SmsStrategyOptionsBase
+  nameWithType: SmsStrategyOptionsBase
 - uid: CG.Sms.SmsResult
   name: SmsResult
   href: api/CG.Sms.SmsResult.html
@@ -252,44 +290,6 @@ references:
   fullName.vb: CG.Sms.Strategies.ISmsStrategy(Of TOptions)
   nameWithType: ISmsStrategy<TOptions>
   nameWithType.vb: ISmsStrategy(Of TOptions)
-- uid: CG.Sms.Strategies.Options
-  name: CG.Sms.Strategies.Options
-  href: api/CG.Sms.Strategies.Options.html
-  commentId: N:CG.Sms.Strategies.Options
-  fullName: CG.Sms.Strategies.Options
-  nameWithType: CG.Sms.Strategies.Options
-- uid: CG.Sms.Strategies.Options.SmsStrategyOptions
-  name: SmsStrategyOptions
-  href: api/CG.Sms.Strategies.Options.SmsStrategyOptions.html
-  commentId: T:CG.Sms.Strategies.Options.SmsStrategyOptions
-  fullName: CG.Sms.Strategies.Options.SmsStrategyOptions
-  nameWithType: SmsStrategyOptions
-- uid: CG.Sms.Strategies.Options.SmsStrategyOptions.Assembly
-  name: Assembly
-  href: api/CG.Sms.Strategies.Options.SmsStrategyOptions.html#CG_Sms_Strategies_Options_SmsStrategyOptions_Assembly
-  commentId: P:CG.Sms.Strategies.Options.SmsStrategyOptions.Assembly
-  fullName: CG.Sms.Strategies.Options.SmsStrategyOptions.Assembly
-  nameWithType: SmsStrategyOptions.Assembly
-- uid: CG.Sms.Strategies.Options.SmsStrategyOptions.Assembly*
-  name: Assembly
-  href: api/CG.Sms.Strategies.Options.SmsStrategyOptions.html#CG_Sms_Strategies_Options_SmsStrategyOptions_Assembly_
-  commentId: Overload:CG.Sms.Strategies.Options.SmsStrategyOptions.Assembly
-  isSpec: "True"
-  fullName: CG.Sms.Strategies.Options.SmsStrategyOptions.Assembly
-  nameWithType: SmsStrategyOptions.Assembly
-- uid: CG.Sms.Strategies.Options.SmsStrategyOptions.Name
-  name: Name
-  href: api/CG.Sms.Strategies.Options.SmsStrategyOptions.html#CG_Sms_Strategies_Options_SmsStrategyOptions_Name
-  commentId: P:CG.Sms.Strategies.Options.SmsStrategyOptions.Name
-  fullName: CG.Sms.Strategies.Options.SmsStrategyOptions.Name
-  nameWithType: SmsStrategyOptions.Name
-- uid: CG.Sms.Strategies.Options.SmsStrategyOptions.Name*
-  name: Name
-  href: api/CG.Sms.Strategies.Options.SmsStrategyOptions.html#CG_Sms_Strategies_Options_SmsStrategyOptions_Name_
-  commentId: Overload:CG.Sms.Strategies.Options.SmsStrategyOptions.Name
-  isSpec: "True"
-  fullName: CG.Sms.Strategies.Options.SmsStrategyOptions.Name
-  nameWithType: SmsStrategyOptions.Name
 - uid: CG.Sms.Strategies.SmsStrategyBase
   name: SmsStrategyBase
   href: api/CG.Sms.Strategies.SmsStrategyBase.html
