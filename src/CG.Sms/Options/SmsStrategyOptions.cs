@@ -1,10 +1,10 @@
 ﻿using CG.Business.Strategies.Options;
 using System.ComponentModel.DataAnnotations;
 
-namespace CG.Sms.Strategies.Options
+namespace CG.Sms.Options
 {
     /// <summary>
-    /// This class contains options information for an sms strategy.
+    /// This class contains options for an sms strategy.
     /// </summary>
     public class SmsStrategyOptions : StrategyOptions
     {
