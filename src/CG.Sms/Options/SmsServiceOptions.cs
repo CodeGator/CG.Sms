@@ -1,5 +1,4 @@
 ﻿using CG.Business.Services.Options;
-using CG.Sms.Strategies.Options;
 using System.ComponentModel.DataAnnotations;
 
 namespace CG.Sms.Options

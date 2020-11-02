@@ -1,5 +1,5 @@
 ﻿using CG.Business.Strategies;
-using CG.Sms.Strategies.Options;
+using CG.Sms.Options;
 using Microsoft.Extensions.Options;
 using System.Collections.Generic;
 using System.Threading;
@@ -29,7 +29,7 @@ namespace CG.Sms.Strategies
     public abstract class SmsStrategyBase<TOptions> :
         StrategyBase<TOptions>,
         ISmsStrategy<TOptions>
-        where TOptions : SmsStrategyOptions, new()
+        where TOptions : SmsStrategyOptionsBase, new()
     {
         // *******************************************************************
         // Constructors.

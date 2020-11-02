@@ -5,7 +5,7 @@ namespace CG.Sms.Options
     /// <summary>
     /// This class represents a base implementation of sms strategy options.
     /// </summary>
-    public class SmsStrategyBase : StrategyOptions
+    public class SmsStrategyOptionsBase : StrategyOptions
     {
         // *******************************************************************
         // Properties.
