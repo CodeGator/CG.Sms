@@ -102,8 +102,19 @@ namespace Microsoft.Extensions.DependencyInjection
                     );
             }
 
-            // Build the name of an extension method for this strategy.
-            var methodName = $"Add{smsServiceOptions.Strategy.Name}Strategy";
+            var methodName = "";
+
+            // Watch for a missing or empty strategy name.
+            if (string.IsNullOrEmpty(smsServiceOptions.Strategy.Name))
+            {
+                // So we have an extension method to call.
+                methodName = $"AddDoNothingStrategy";
+            }
+            else
+            {
+                // Format the name of the extension method.
+                methodName = $"Add{smsServiceOptions.Strategy.Name}Strategy";
+            }
 
             // Look for specified extension method.
             var methods = AppDomain.CurrentDomain.ExtensionMethods(
