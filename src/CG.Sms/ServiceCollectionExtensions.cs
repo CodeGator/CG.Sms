@@ -96,10 +96,17 @@ namespace Microsoft.Extensions.DependencyInjection
             // Should we load an assembly for the strategy?
             if (!string.IsNullOrEmpty(smsServiceOptions.Strategy.Assembly))
             {
-                // Load the assembly for the strategy. 
-                _ = Assembly.Load(
-                    smsServiceOptions.Strategy.Assembly
-                    );
+                try
+                {
+                    // Load the assembly for the strategy. 
+                    _ = Assembly.Load(
+                        smsServiceOptions.Strategy.Assembly
+                        );
+                }
+                catch
+                {
+                    // Just eat this error.
+                }
             }
 
             var methodName = "";
