@@ -1,9 +1,9 @@
 # CG.Sms: 
 ---
-[![Build Status](https://dev.azure.com/codegator/CG.Sms/_apis/build/status/CodeGator.CG.Sms?branchName=master)](https://dev.azure.com/codegator/CG.Sms/_build/latest?definitionId=1&branchName=master)
+[![Build Status](https://dev.azure.com/codegator/CG.Sms/_apis/build/status/CodeGator.CG.Sms?branchName=main)](https://dev.azure.com/codegator/CG.Sms/_build/latest?definitionId=26&branchName=main)
 [![Github docs](https://img.shields.io/static/v1?label=Documentation&message=online&color=blue)](https://codegator.github.io/CG.Sms/index.html)
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Sms.svg?style=flat)](https://nuget.org/packages/CG.Sms)
-![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Sms/3)
+![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Sms/26)
 
 #### What does it do?
 The package contains SMS extension used by other CodeGator packages.
