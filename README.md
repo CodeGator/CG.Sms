@@ -19,5 +19,7 @@ PM> Install-Package CG.Sms
 #### How do I contact you?
 If you've spotted a bug in the code please use the project Issues [HERE](https://github.com/CodeGator/CG.Sms/issues)
 
-#### Should I use this package in my project?
-This codebase changes, often, so it may not be the best choice for a production project. 
+#### Is there any documentation?
+There is developer documentation [HERE](https://codegator.github.io/CG.Sms/)
+
+We also blog about projects like this one on our website, [HERE](http://www.codegator.com)
