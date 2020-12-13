@@ -4,6 +4,7 @@
 [![Github docs](https://img.shields.io/static/v1?label=Documentation&message=online&color=blue)](https://codegator.github.io/CG.Sms/index.html)
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Sms.svg?style=flat)](https://nuget.org/packages/CG.Sms)
 ![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Sms/26)
+[![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Sms/discussions)
 
 #### What does it do?
 The package contains SMS extension used by other CodeGator packages.
