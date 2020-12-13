@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Sms.Builders.ISmsStrategyBuilder.html",
-          "hash": "AaVrsv97Lmy31hInMJtCoA=="
+          "hash": "aBicPFFfA9j9BDRGKLI6lg=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Sms.Builders.html",
-          "hash": "E9JsyS5BntQBFWLuNxWyDQ=="
+          "hash": "mQda14ffHZEaWke6D/MGzQ=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Sms.ISmsService.html",
-          "hash": "rH4se+DL9m0fl8QYsz/5tw=="
+          "hash": "q2qIrGarc2BsGwQ3O35gfA=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Sms.Options.SmsServiceOptions.html",
-          "hash": "PBs2ELVKI/DIupyJ0OGaPg=="
+          "hash": "Rv/1+DhgMdGzcf4xfj+3eg=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Sms.Options.SmsStrategyOptions.html",
-          "hash": "eVzXEY1cCOMWDsdYSnpigA=="
+          "hash": "/YUYuSA3FWwWZBi6t0tmjw=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Sms.Options.SmsStrategyOptionsBase.html",
-          "hash": "PlC3jgTkUxagI/itx6XG/w=="
+          "hash": "88515RI4zdFv8wmMBIRR8w=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Sms.Options.html",
-          "hash": "fbh2mO40ZOrNfvzTT0PocA=="
+          "hash": "x5OuMBrqwn023s+ovRrGlA=="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Sms.SmsResult.html",
-          "hash": "D8ynJOo4Ibd4516gqPB4NQ=="
+          "hash": "y0tG/54rF+yYwgwVTk8odA=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Sms.SmsService.html",
-          "hash": "YxbKBJQroOzXuVLlEgHYzw=="
+          "hash": "q5KDEUC4y+QXUbHPDTzq2w=="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Sms.SmsServiceException.html",
-          "hash": "KN3EsdtUovrZ/YDbbWUYOw=="
+          "hash": "ymRTyOw0TJyiXmcYDgxSDA=="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Sms.SmsServiceExtensions.html",
-          "hash": "g3/oWfRsn4RosIv2bYwjVw=="
+          "hash": "a5yowDJrkvD6ijwG58lKGg=="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Sms.SmsStrategyBuilderExtensions.html",
-          "hash": "F+tLtV6BYCXF3Yi9SO0wog=="
+          "hash": "/KmYBys8ky0mN80uP5nppg=="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Sms.Strategies.ISmsStrategy-1.html",
-          "hash": "Sp6BYPEhTZg2gKOfk47Bpw=="
+          "hash": "GeFXt6BztnroQ4BsfLhpig=="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Sms.Strategies.ISmsStrategy.html",
-          "hash": "1iqgm5bM7h8Yk6X5qjIXbw=="
+          "hash": "h6jGTa7YA6e5XGoE3LRgZg=="
         }
       },
       "is_incremental": false,
@@ -186,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Sms.Strategies.SmsStrategyBase-1.html",
-          "hash": "vupWWpZcGVu/qTouZWLk4A=="
+          "hash": "HyLF3WHytJSHVeaaJgexdw=="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Sms.Strategies.SmsStrategyBase.html",
-          "hash": "ur8T+WuPvdrDhzK1Fej3Hw=="
+          "hash": "1Hmx7g0XuXf9k81fwVb6Pg=="
         }
       },
       "is_incremental": false,
@@ -210,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Sms.Strategies.html",
-          "hash": "tDD/n2H2QZ33ZbaA8qaE8w=="
+          "hash": "4xsGkjuUUTEqr9eT7LURJQ=="
         }
       },
       "is_incremental": false,
@@ -222,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Sms.html",
-          "hash": "pish4hp5RRZpwRnxwyyK0A=="
+          "hash": "09NdNa5KQNgcY1x7hxZ8+w=="
         }
       },
       "is_incremental": false,
@@ -234,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html",
-          "hash": "fi6dgH56QelD95DXhFZs5g=="
+          "hash": "MJJji9zwDHi6qNDgdJ1TtA=="
         }
       },
       "is_incremental": false,
@@ -246,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.Extensions.DependencyInjection.html",
-          "hash": "HwBRLRAfkMicddC6zItrxA=="
+          "hash": "N4MQGjszJndsedN+zAhIew=="
         }
       },
       "is_incremental": false,
@@ -258,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.Extensions.Hosting.HostBuilderExtensions.html",
-          "hash": "gTJc0M59lMLXpGxN9jACXQ=="
+          "hash": "FG2Wwy3ULYxGtVUbsunqZg=="
         }
       },
       "is_incremental": false,
@@ -270,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.Extensions.Hosting.html",
-          "hash": "/6ip9CclOMZNWWP2+rhCjQ=="
+          "hash": "f0ED6R1sYUXF9qEx5PdZ0A=="
         }
       },
       "is_incremental": false,
@@ -282,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "y6UQJtL8p1BmSj0XZ5PzgA=="
+          "hash": "9AMzobfMYnee6A8caPF5hw=="
         }
       },
       "is_incremental": false,
@@ -306,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "vkT0yhk88AMtN3BDOd37jw=="
+          "hash": "46rQidY2r/qcBTWAdxdIBw=="
         }
       },
       "is_incremental": false,
@@ -374,7 +374,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "d2weFkCthUFK4+vbUL7RVQ=="
+          "hash": "6LXyxu8qSgGT4sBelRxQ7A=="
         }
       },
       "is_incremental": false,
