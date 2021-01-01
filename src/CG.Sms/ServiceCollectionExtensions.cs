@@ -1,14 +1,9 @@
-﻿using CG.Reflection;
+﻿using CG.Configuration;
 using CG.Sms;
-using CG.Sms.Builders;
-using CG.Sms.Options;
 using CG.Sms.Properties;
 using CG.Validations;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.Linq;
-using System.Reflection;
 
 namespace Microsoft.Extensions.DependencyInjection
 {
@@ -35,46 +30,6 @@ namespace Microsoft.Extensions.DependencyInjection
         /// an strategies for the service.</returns>
         /// <exception cref="ArgumentException">This exception is thrown whenever
         /// a required argument is missing or invalid.</exception>
-        /// <remarks>
-        /// <para>
-        /// This method builds up an sms service using information read from 
-        /// the specified configuration. 
-        /// </para>
-        /// <para>
-        /// Here is an example for the JSON configuration:
-        /// <code language="json">
-        /// {
-        ///     "Sms": {
-        ///       "Strategy": {
-        ///           "Name": "Twilio",
-        ///           "Assembly": "CG.Sms.Twilio"
-        ///         },
-        ///       "Twilio": {
-        ///       }
-        ///    }
-        /// }
-        /// </code>
-        /// </para>
-        /// <para>
-        /// Let's break it down. The <c>Services</c> section is where ALL services for the 
-        /// application should be configured. If you're adding a CodeGator service to your
-        /// application then you'll want to add that service to this section in order to 
-        /// configure the service at startup.
-        /// </para>
-        /// <para>
-        /// Under <c>Services</c>, the <c>Sms</c> section is where the CodeGator sms service 
-        /// should be configured. This section contains at least two nodes: <c>Strategy</c> and 
-        /// <c>Assembly</c>. The <c>Strategy</c> node tells the host what strategy to load
-        /// for the sms service, and as such, is required. The <c>Assembly</c> section is 
-        /// optional, and is only needed when the strategy is located in an external assembly 
-        /// that should be dynamically loaded at startup.
-        /// </para>
-        /// <para>
-        /// The <c>Sms</c> section is an example of a strategy section. This will vary, of
-        /// course, depending on which strategy is named in the <c>Strategy</c> node. In this
-        /// case, we see a made up example for a Twilio based SMS strategy. 
-        /// </para>
-        /// </remarks>
         public static IServiceCollection AddSms(
             this IServiceCollection serviceCollection,
             IConfiguration configuration
@@ -84,116 +39,52 @@ namespace Microsoft.Extensions.DependencyInjection
             Guard.Instance().ThrowIfNull(serviceCollection, nameof(serviceCollection))
                 .ThrowIfNull(configuration, nameof(configuration));
 
-            // Configure the sms service options.
-            serviceCollection.ConfigureOptions<SmsServiceOptions>(
-                configuration,
-                out var smsServiceOptions
-                );
+            // Check the configuration path, just in case we need to adjust it, to 
+            //   work with this method.
 
-            // Register the service.
-            serviceCollection.AddSingleton<ISmsService, SmsService>();
+            // Get the path for the current section.
+            var path = configuration.GetPath();
 
-            // Should we load an assembly for the strategy?
-            if (!string.IsNullOrEmpty(smsServiceOptions.Strategy.Assembly))
+            // Were we called with the configuration root?
+            if (true == string.IsNullOrEmpty(path))
             {
-                try
-                {
-                    // Load the assembly for the strategy. 
-                    _ = Assembly.Load(
-                        smsServiceOptions.Strategy.Assembly
-                        );
-                }
-                catch
-                {
-                    // Just eat this error.
-                }
+                // Point to the proper configuration section.
+                configuration = configuration.GetSection("Services:Sms");
+
+                // Get the new path.
+                path = configuration.GetPath();
+            }
+            else if (false == path.EndsWith("Sms"))
+            {
+                // Point to the proper configuration section.
+                configuration = configuration.GetSection("Sms");
+
+                // Get the new path.
+                path = configuration.GetPath();
             }
 
-            var methodName = "";
+            // Now we should be pointed to the SMS section, but, just in case, 
+            //   let's do one more check. We're doing this here because configuration
+            //   bugs are difficult and frustrating to troubleshoot, so, we want to 
+            //   provide as much feedback as is practical to the caller.
 
-            // Watch for a missing or empty strategy name.
-            if (string.IsNullOrEmpty(smsServiceOptions.Strategy.Name))
-            {
-                // So we have an extension method to call.
-                methodName = $"AddDoNothingStrategy";
-            }
-            else
-            {
-                // Format the name of the extension method.
-                methodName = $"Add{smsServiceOptions.Strategy.Name}Strategy";
-            }
-
-            // Look for specified extension method.
-            var methods = AppDomain.CurrentDomain.ExtensionMethods(
-                typeof(ISmsStrategyBuilder),
-                methodName,
-                new Type[] { typeof(IConfiguration) }
-                );
-
-            // Did we fail to find anything?
-            if (false == methods.Any())
+            if (false == path.EndsWith("Sms"))
             {
                 // Panic!
-                throw new MissingMethodException(
+                throw new ConfigurationException(
                     message: string.Format(
-                        Resources.ServiceCollectionExtensions_MethodNotFound,
-                        methodName
+                        Resources.NotSmsSection,
+                        nameof(AddSms),
+                        path
                         )
                     );
             }
 
-            // Create the strategy builder.
-            var strategyBuilder = new SmsStrategyBuilder()
-            {
-                Services = serviceCollection
-            };
-
-            // We'll use the first matching method.
-            var method = methods.First();
-
-            // Invoke the extension method.
-            method.Invoke(
-                null,
-                new object[] { strategyBuilder, configuration }
-                );
-
-            // Return the service collection.
-            return serviceCollection;
-        }
-
-        // *******************************************************************
-
-        /// <summary>
-        /// This method adds services and strategies for sending sms messages 
-        /// to the specified service collection.
-        /// </summary>
-        /// <param name="serviceCollection">The service collection to use for 
-        /// the operation.</param>
-        /// <param name="builderAction">The delegate to use for the operation.</param>
-        /// <returns>A <see cref="IServiceCollection"/> object for building up
-        /// an strategies for the service.</returns>
-        /// <exception cref="ArgumentException">This exception is thrown whenever
-        /// a required argument is missing or invalid.</exception>
-        public static IServiceCollection AddSms(
-            this IServiceCollection serviceCollection,
-            Action<ISmsStrategyBuilder> builderAction
-            )
-        {
-            // Validate the parameters before attempting to use them.
-            Guard.Instance().ThrowIfNull(serviceCollection, nameof(serviceCollection))
-                .ThrowIfNull(builderAction, nameof(builderAction));
-
-            // Create the strategy builder.
-            var strategyBuilder = new SmsStrategyBuilder()
-            {
-                Services = serviceCollection
-            };
-
             // Register the service.
             serviceCollection.AddSingleton<ISmsService, SmsService>();
 
-            // Allow the caller to customize the builder.
-            builderAction(strategyBuilder);
+            // Register the strategy(s).
+            serviceCollection.AddStrategies(configuration);
 
             // Return the service collection.
             return serviceCollection;
