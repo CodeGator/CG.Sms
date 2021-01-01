@@ -169,42 +169,6 @@ for chaining calls together.</p>
       </tr>
     </tbody>
   </table>
-  <h5 id="Microsoft_Extensions_Hosting_HostBuilderExtensions_AddSms_Microsoft_Extensions_Hosting_IHostBuilder__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>
-The idea with this method, is to create a quick and easy way to setup sms 
-services for a hosted application by following a simple configuration convention. 
-That convention assumes a configuration section exists like this:
-<pre><code class="lang-json">{
-   &quot;Services&quot; : {
-      &quot;Sms&quot;: {
-         &quot;Strategy&quot; : &quot;Twilio&quot;,
-         &quot;Assembly&quot; : &quot;CG.Sms.Twilio&quot;,
-         &quot;Twilio&quot;: {
-         }
-      }
-   }
-}</code></pre>
-</p>
-<p>
-Let&apos;s break it down. The <code>Services</code> section is where ALL services for the 
-application should be configured. If you&apos;re adding a CodeGator service to your
-application then you&apos;ll want to add that service to this section in order to 
-configure the service at startup.
-</p>
-<p>
-Under <code>Services</code>, the <code>Sms</code> section is where the CodeGator sms service 
-should be configured. This section contains at least two nodes: <code>Strategy</code> and 
-<code>Assembly</code>. The <code>Strategy</code> node tells the host what strategy to load
-for the sms service, and as such, is required. The <code>Assembly</code> section is 
-optional, and is only needed when the strategy is located in an external assembly 
-that should be dynamically loaded at startup.
-</p>
-<p>
-The <code>Smtp</code> section is an example of a strategy section. This will vary, of
-course, depending on which strategy is named in the <code>Strategy</code> node. In this
-case, we see a made up example for a Twilio based SMS strategy. 
-</p>
-</div>
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>

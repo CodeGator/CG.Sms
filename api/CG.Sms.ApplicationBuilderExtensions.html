@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface ISmsStrategyBuilder
+    <title>Class ApplicationBuilderExtensions
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface ISmsStrategyBuilder
+    <meta name="title" content="Class ApplicationBuilderExtensions
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -78,32 +78,88 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CG.Sms.Builders.ISmsStrategyBuilder">
+            <article class="content wrap" id="_content" data-uid="CG.Sms.ApplicationBuilderExtensions">
   
   
-  <h1 id="CG_Sms_Builders_ISmsStrategyBuilder" data-uid="CG.Sms.Builders.ISmsStrategyBuilder" class="text-break">Interface ISmsStrategyBuilder
+  <h1 id="CG_Sms_ApplicationBuilderExtensions" data-uid="CG.Sms.ApplicationBuilderExtensions" class="text-break">Class ApplicationBuilderExtensions
   </h1>
-  <div class="markdown level0 summary"><p>This interface represents a builder for SMS strategies.</p>
+  <div class="markdown level0 summary"><p>This class contains extension methods related to the <span class="xref">Microsoft.AspNetCore.Builder.IApplicationBuilder</span>
+type.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CG.Sms.Builders.html">CG.Sms.Builders</a></h6>
-  <h6><strong>Assembly</strong>: CG.Sms.dll</h6>
-  <h5 id="CG_Sms_Builders_ISmsStrategyBuilder_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ISmsStrategyBuilder</code></pre>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ApplicationBuilderExtensions</span></div>
   </div>
-  <h3 id="properties">Properties
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CG.Sms.html">CG.Sms</a></h6>
+  <h6><strong>Assembly</strong>: CG.Sms.dll</h6>
+  <h5 id="CG_Sms_ApplicationBuilderExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ApplicationBuilderExtensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
   </h3>
-  <a id="CG_Sms_Builders_ISmsStrategyBuilder_Services_" data-uid="CG.Sms.Builders.ISmsStrategyBuilder.Services*"></a>
-  <h4 id="CG_Sms_Builders_ISmsStrategyBuilder_Services" data-uid="CG.Sms.Builders.ISmsStrategyBuilder.Services">Services</h4>
-  <div class="markdown level1 summary"><p>This property contains a collection of registered services.</p>
+  <a id="CG_Sms_ApplicationBuilderExtensions_UseEmail_" data-uid="CG.Sms.ApplicationBuilderExtensions.UseEmail*"></a>
+  <h4 id="CG_Sms_ApplicationBuilderExtensions_UseEmail_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_" data-uid="CG.Sms.ApplicationBuilderExtensions.UseEmail(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">UseEmail(IApplicationBuilder, IWebHostEnvironment)</h4>
+  <div class="markdown level1 summary"><p>This method wires up any startup logic required for the email service.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IServiceCollection Services { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static IApplicationBuilder UseEmail(this IApplicationBuilder applicationBuilder, IWebHostEnvironment hostEnvironment)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Builder.IApplicationBuilder</span></td>
+        <td><span class="parametername">applicationBuilder</span></td>
+        <td><p>The application builder to use for
+the operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Hosting.IWebHostEnvironment</span></td>
+        <td><span class="parametername">hostEnvironment</span></td>
+        <td><p>The host environment to use for the
+operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -113,15 +169,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span></td>
-        <td></td>
+        <td><span class="xref">Microsoft.AspNetCore.Builder.IApplicationBuilder</span></td>
+        <td><p>Ther value of the <code data-dev-comment-type="paramref" class="paramref">applicationBuilder</code>
+parameter, for chaining calls together.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="CG.Sms.SmsStrategyBuilderExtensions.html#CG_Sms_SmsStrategyBuilderExtensions_AddDoNothingStrategy_CG_Sms_Builders_ISmsStrategyBuilder_Microsoft_Extensions_Configuration_IConfiguration_">SmsStrategyBuilderExtensions.AddDoNothingStrategy(ISmsStrategyBuilder, IConfiguration)</a>
-  </div>
 </article>
           </div>
           

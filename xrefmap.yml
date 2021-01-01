@@ -7,31 +7,25 @@ references:
   commentId: N:CG.Sms
   fullName: CG.Sms
   nameWithType: CG.Sms
-- uid: CG.Sms.Builders
-  name: CG.Sms.Builders
-  href: api/CG.Sms.Builders.html
-  commentId: N:CG.Sms.Builders
-  fullName: CG.Sms.Builders
-  nameWithType: CG.Sms.Builders
-- uid: CG.Sms.Builders.ISmsStrategyBuilder
-  name: ISmsStrategyBuilder
-  href: api/CG.Sms.Builders.ISmsStrategyBuilder.html
-  commentId: T:CG.Sms.Builders.ISmsStrategyBuilder
-  fullName: CG.Sms.Builders.ISmsStrategyBuilder
-  nameWithType: ISmsStrategyBuilder
-- uid: CG.Sms.Builders.ISmsStrategyBuilder.Services
-  name: Services
-  href: api/CG.Sms.Builders.ISmsStrategyBuilder.html#CG_Sms_Builders_ISmsStrategyBuilder_Services
-  commentId: P:CG.Sms.Builders.ISmsStrategyBuilder.Services
-  fullName: CG.Sms.Builders.ISmsStrategyBuilder.Services
-  nameWithType: ISmsStrategyBuilder.Services
-- uid: CG.Sms.Builders.ISmsStrategyBuilder.Services*
-  name: Services
-  href: api/CG.Sms.Builders.ISmsStrategyBuilder.html#CG_Sms_Builders_ISmsStrategyBuilder_Services_
-  commentId: Overload:CG.Sms.Builders.ISmsStrategyBuilder.Services
+- uid: CG.Sms.ApplicationBuilderExtensions
+  name: ApplicationBuilderExtensions
+  href: api/CG.Sms.ApplicationBuilderExtensions.html
+  commentId: T:CG.Sms.ApplicationBuilderExtensions
+  fullName: CG.Sms.ApplicationBuilderExtensions
+  nameWithType: ApplicationBuilderExtensions
+- uid: CG.Sms.ApplicationBuilderExtensions.UseEmail(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  name: UseEmail(IApplicationBuilder, IWebHostEnvironment)
+  href: api/CG.Sms.ApplicationBuilderExtensions.html#CG_Sms_ApplicationBuilderExtensions_UseEmail_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_
+  commentId: M:CG.Sms.ApplicationBuilderExtensions.UseEmail(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  fullName: CG.Sms.ApplicationBuilderExtensions.UseEmail(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  nameWithType: ApplicationBuilderExtensions.UseEmail(IApplicationBuilder, IWebHostEnvironment)
+- uid: CG.Sms.ApplicationBuilderExtensions.UseEmail*
+  name: UseEmail
+  href: api/CG.Sms.ApplicationBuilderExtensions.html#CG_Sms_ApplicationBuilderExtensions_UseEmail_
+  commentId: Overload:CG.Sms.ApplicationBuilderExtensions.UseEmail
   isSpec: "True"
-  fullName: CG.Sms.Builders.ISmsStrategyBuilder.Services
-  nameWithType: ISmsStrategyBuilder.Services
+  fullName: CG.Sms.ApplicationBuilderExtensions.UseEmail
+  nameWithType: ApplicationBuilderExtensions.UseEmail
 - uid: CG.Sms.ISmsService
   name: ISmsService
   href: api/CG.Sms.ISmsService.html
@@ -262,25 +256,6 @@ references:
   isSpec: "True"
   fullName: CG.Sms.SmsServiceExtensions.Send
   nameWithType: SmsServiceExtensions.Send
-- uid: CG.Sms.SmsStrategyBuilderExtensions
-  name: SmsStrategyBuilderExtensions
-  href: api/CG.Sms.SmsStrategyBuilderExtensions.html
-  commentId: T:CG.Sms.SmsStrategyBuilderExtensions
-  fullName: CG.Sms.SmsStrategyBuilderExtensions
-  nameWithType: SmsStrategyBuilderExtensions
-- uid: CG.Sms.SmsStrategyBuilderExtensions.AddDoNothingStrategy(CG.Sms.Builders.ISmsStrategyBuilder,Microsoft.Extensions.Configuration.IConfiguration)
-  name: AddDoNothingStrategy(ISmsStrategyBuilder, IConfiguration)
-  href: api/CG.Sms.SmsStrategyBuilderExtensions.html#CG_Sms_SmsStrategyBuilderExtensions_AddDoNothingStrategy_CG_Sms_Builders_ISmsStrategyBuilder_Microsoft_Extensions_Configuration_IConfiguration_
-  commentId: M:CG.Sms.SmsStrategyBuilderExtensions.AddDoNothingStrategy(CG.Sms.Builders.ISmsStrategyBuilder,Microsoft.Extensions.Configuration.IConfiguration)
-  fullName: CG.Sms.SmsStrategyBuilderExtensions.AddDoNothingStrategy(CG.Sms.Builders.ISmsStrategyBuilder, Microsoft.Extensions.Configuration.IConfiguration)
-  nameWithType: SmsStrategyBuilderExtensions.AddDoNothingStrategy(ISmsStrategyBuilder, IConfiguration)
-- uid: CG.Sms.SmsStrategyBuilderExtensions.AddDoNothingStrategy*
-  name: AddDoNothingStrategy
-  href: api/CG.Sms.SmsStrategyBuilderExtensions.html#CG_Sms_SmsStrategyBuilderExtensions_AddDoNothingStrategy_
-  commentId: Overload:CG.Sms.SmsStrategyBuilderExtensions.AddDoNothingStrategy
-  isSpec: "True"
-  fullName: CG.Sms.SmsStrategyBuilderExtensions.AddDoNothingStrategy
-  nameWithType: SmsStrategyBuilderExtensions.AddDoNothingStrategy
 - uid: CG.Sms.Strategies
   name: CG.Sms.Strategies
   href: api/CG.Sms.Strategies.html
@@ -403,15 +378,6 @@ references:
   commentId: M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddSms(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
   fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddSms(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
   nameWithType: ServiceCollectionExtensions.AddSms(IServiceCollection, IConfiguration)
-- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddSms(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{CG.Sms.Builders.ISmsStrategyBuilder})
-  name: AddSms(IServiceCollection, Action<ISmsStrategyBuilder>)
-  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddSms_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_CG_Sms_Builders_ISmsStrategyBuilder__
-  commentId: M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddSms(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{CG.Sms.Builders.ISmsStrategyBuilder})
-  name.vb: AddSms(IServiceCollection, Action(Of ISmsStrategyBuilder))
-  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddSms(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<CG.Sms.Builders.ISmsStrategyBuilder>)
-  fullName.vb: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddSms(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of CG.Sms.Builders.ISmsStrategyBuilder))
-  nameWithType: ServiceCollectionExtensions.AddSms(IServiceCollection, Action<ISmsStrategyBuilder>)
-  nameWithType.vb: ServiceCollectionExtensions.AddSms(IServiceCollection, Action(Of ISmsStrategyBuilder))
 - uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddSms*
   name: AddSms
   href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddSms_
