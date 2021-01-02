@@ -36,7 +36,8 @@ namespace CG.Sms
         {
             // Validate the parameters before attempting to use them.
             Guard.Instance().ThrowIfNull(applicationBuilder, nameof(applicationBuilder))
-                .ThrowIfNull(hostEnvironment, nameof(hostEnvironment));
+                .ThrowIfNull(hostEnvironment, nameof(hostEnvironment))
+                .ThrowIfNull(configurationSection, nameof(configurationSection));
 
             // Call the use method for the strategy.
             applicationBuilder.UseStrategies(

@@ -92,7 +92,10 @@ namespace CG.Sms
             {
                 // Wrap the exception.
                 throw new SmsServiceException(
-                    message: Resources.SmsService_SendAsync,
+                    message: string.Format(
+                        Resources.SmsService_SendAsync,
+                        nameof(SmsService)
+                        ),
                     innerException: ex
                     );
             }
