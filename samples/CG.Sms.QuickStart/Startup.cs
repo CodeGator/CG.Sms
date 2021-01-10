@@ -20,6 +20,15 @@ namespace CG.Sms.QuickStart
             IServiceCollection services
             )
         {
+            // I'm in the process of trying to solve an issue where
+            //   the SMS service/stratregy registrations disappear
+            //   after we add them - hence, the duplicate call here.
+
+            services.AddSms(
+                Configuration.GetSection("Services:Sms"),
+                ServiceLifetime.Singleton
+                );
+
             services.AddSms(
                 Configuration.GetSection("Services:Sms"),
                 ServiceLifetime.Singleton

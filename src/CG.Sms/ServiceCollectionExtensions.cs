@@ -42,18 +42,13 @@ namespace Microsoft.Extensions.DependencyInjection
                 .ThrowIfNull(configuration, nameof(configuration));
 
             // Register the service.
-            switch (serviceLifetime)
-            {
-                case ServiceLifetime.Singleton:
-                    serviceCollection.AddSingleton<ISmsService, SmsService>();
-                    break;
-                case ServiceLifetime.Scoped:
-                    serviceCollection.AddScoped<ISmsService, SmsService>();
-                    break;
-                case ServiceLifetime.Transient:
-                    serviceCollection.AddTransient<ISmsService, SmsService>();
-                    break;
-            }
+            serviceCollection.Add(
+                new ServiceDescriptor(
+                    typeof(ISmsService),
+                    typeof(SmsService),
+                    serviceLifetime
+                    )
+                );
 
             // Register the strategy(s).
             serviceCollection.AddStrategies(

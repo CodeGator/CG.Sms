@@ -37,18 +37,13 @@ namespace CG.Sms.Strategies.DoNothing
                 .ThrowIfNull(configuration, nameof(configuration));
 
             // Register the strategy.
-            switch (serviceLifetime)
-            {
-                case ServiceLifetime.Scoped:
-                    serviceCollection.AddScoped<ISmsStrategy, DoNothingSmsStrategy>();
-                    break;
-                case ServiceLifetime.Singleton:
-                    serviceCollection.AddSingleton<ISmsStrategy, DoNothingSmsStrategy>();
-                    break;
-                case ServiceLifetime.Transient:
-                    serviceCollection.AddTransient<ISmsStrategy, DoNothingSmsStrategy>();
-                    break;
-            }
+            serviceCollection.Add(
+                new ServiceDescriptor(
+                    typeof(ISmsStrategy),
+                    typeof(DoNothingSmsStrategy),
+                    serviceLifetime
+                    )
+                );
 
             // Return the service collection.
             return serviceCollection;
