@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
 using System.Linq;
@@ -9,14 +10,17 @@ namespace CG.Sms.QuickStart
     {
         static void Main(string[] args)
         {
-            Host.CreateDefaultBuilder()
-                .AddSms()
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                })
                 .Build()
                 .RunDelegate(host =>
                 {
                     try
                     {
-                        Console.WriteLine($"fetching sms service ...");
+                        Console.WriteLine($"Getting sms service ...");
                         var sms = host.Services.GetRequiredService<ISmsService>();
 
                         Console.WriteLine($"sending sms ...");
@@ -35,8 +39,7 @@ namespace CG.Sms.QuickStart
                         Console.WriteLine("Press any key to exit ...");
                         Console.ReadKey();
                     }
-                    
-                });            
+                }); 
         }
     }
 }

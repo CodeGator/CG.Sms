@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using System;
 
-namespace CG.Sms
+namespace CG.Sms.Strategies.DoNothing
 {
     /// <summary>
     /// This class contains extension methods related to the <see cref="IApplicationBuilder"/>
@@ -18,34 +18,27 @@ namespace CG.Sms
         #region Public methods
 
         /// <summary>
-        /// This method wires up any startup logic required for the SMS service.
+        /// This method wires up any startup logic required by the "do nothing"
+        /// SMS strategy.
         /// </summary>
         /// <param name="applicationBuilder">The application builder to use for
         /// the operation.</param>
         /// <param name="hostEnvironment">The host environment to use for the 
         /// operation.</param>
-        /// <param name="configurationSection">The configuration section to use 
-        /// for the operation.</param>
         /// <returns>Ther value of the <paramref name="applicationBuilder"/>
         /// parameter, for chaining calls together.</returns>
-        public static IApplicationBuilder UseSms(
+        public static IApplicationBuilder UseDoNothingStrategies(
             this IApplicationBuilder applicationBuilder,
-            IWebHostEnvironment hostEnvironment,
-            string configurationSection
+            IWebHostEnvironment hostEnvironment
             )
         {
             // Validate the parameters before attempting to use them.
             Guard.Instance().ThrowIfNull(applicationBuilder, nameof(applicationBuilder))
-                .ThrowIfNull(hostEnvironment, nameof(hostEnvironment))
-                .ThrowIfNull(configurationSection, nameof(configurationSection));
+                .ThrowIfNull(hostEnvironment, nameof(hostEnvironment));
 
-            // Call the use method for the strategy.
-            applicationBuilder.UseStrategies(
-                hostEnvironment,
-                configurationSection
-                );
+            // TODO : Nothing needed here.
 
-            // Return the application builder.
+            // Return the applicationn builder.
             return applicationBuilder;
         }
 
