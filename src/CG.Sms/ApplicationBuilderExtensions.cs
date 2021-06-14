@@ -1,8 +1,7 @@
 ﻿using CG.Validations;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
-using System;
+using Microsoft.Extensions.Hosting;
 
 namespace CG.Sms
 {
@@ -30,7 +29,7 @@ namespace CG.Sms
         /// parameter, for chaining calls together.</returns>
         public static IApplicationBuilder UseSms(
             this IApplicationBuilder applicationBuilder,
-            IWebHostEnvironment hostEnvironment,
+            IHostEnvironment hostEnvironment,
             IConfiguration configuration
             )
         {

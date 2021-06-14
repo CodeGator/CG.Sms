@@ -21,7 +21,7 @@ namespace CG.Sms.QuickStart
             )
         {
             services.AddSms(
-                Configuration.GetSection("Services:Sms"),
+                Configuration.GetSection("Sms"),
                 ServiceLifetime.Singleton
                 );
         }
@@ -33,7 +33,7 @@ namespace CG.Sms.QuickStart
         {
             app.UseSms(
                 env,
-                Configuration.GetSection("Services:Sms")
+                Configuration.GetSection("Sms")
                 );
         }
     }
