@@ -13,27 +13,288 @@
       "is_incremental": false
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "api/index.md",
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sms.ApplicationBuilderExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/index.html",
-          "hash": "qmDz8ga3mWTWm3i5EL3tggh/GfxQ2V0QLhMK74C3Jlk="
+          "relative_path": "api/CG.Sms.ApplicationBuilderExtensions.html",
+          "hash": "piAZSA21t7JSQXSbP26eRALolymlxOcPgQV4qnhnl3Y="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "UidNotFound"
-      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sms.ISmsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sms.ISmsService.html",
+          "hash": "gYxL65hcWTA4NISxfkCHRoG0vVDBSFtu1CSZOG7Vew4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sms.Options.SmsStrategyOptionsBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sms.Options.SmsStrategyOptionsBase.html",
+          "hash": "CfT1p5eQ9p0BfcYENdWKgbv1yCD8zhyams7GqbVh1XY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sms.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sms.Options.html",
+          "hash": "j+A4iV/yGMQqoKodP/zhBeSrAamt6nQgx9ZoVh6T7X0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sms.SmsResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sms.SmsResult.html",
+          "hash": "zhhcTqF30i70u1kSVgG1nU1SJoRwP8wy2jW+CdsNNoE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sms.SmsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sms.SmsService.html",
+          "hash": "eMJTS0SMkBJ3tUqO4U95JDTyycUDF7HfdCDhQ9avjrA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sms.SmsServiceException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sms.SmsServiceException.html",
+          "hash": "sQAbp3MuXr0BjBylePfGna7YV3KfKtS4VO7ezVzNIGg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sms.SmsServiceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sms.SmsServiceExtensions.html",
+          "hash": "uDtb32rGnw1+F0kPbmyytOa5m58kpRUJ3KbVF+zqbps="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sms.Strategies.DoNothing.ApplicationBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sms.Strategies.DoNothing.ApplicationBuilderExtensions.html",
+          "hash": "GtguJcF8GR1QR8jJ9B75movh1NPGYELdTn3ZEf2czEI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sms.Strategies.DoNothing.DoNothingSmsStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sms.Strategies.DoNothing.DoNothingSmsStrategy.html",
+          "hash": "roznOnPG4aKo8w6bbm8AKzVYtAEjLcDEl3pQ5y07oOg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sms.Strategies.DoNothing.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sms.Strategies.DoNothing.ServiceCollectionExtensions.html",
+          "hash": "vIBXXG77ww+i2SZlo3fzW5bynvmJyuo5jcpHKightlo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sms.Strategies.DoNothing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sms.Strategies.DoNothing.html",
+          "hash": "0h1qgPD1UsmKgHXQZFpuQ8XdR/3LYpm5Q7Z3xh729NU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sms.Strategies.ISmsStrategy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sms.Strategies.ISmsStrategy-1.html",
+          "hash": "Je+1YVJIrar+2/wuvdl78iKdgwD5kpWBoE9gPkQFpeg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sms.Strategies.ISmsStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sms.Strategies.ISmsStrategy.html",
+          "hash": "mMzK/HqGZyXsV3KjgD8iduRFVWzbLWmOR/17aqi0SDo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sms.Strategies.SmsStrategyBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sms.Strategies.SmsStrategyBase-1.html",
+          "hash": "91akgz4nIEe+l/B3siy6+eL8rAHaAmqAbibB+mrGUDI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sms.Strategies.SmsStrategyBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sms.Strategies.SmsStrategyBase.html",
+          "hash": "PyFQ2C4FD1DoyWRw4m6lhJ4UIbSianK9/4VRjIwLHcc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sms.Strategies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sms.Strategies.html",
+          "hash": "XcE89zoSEngI/kHbVTkKLoQZVxm7WPKC5PxQ/+mK8Ho="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sms.html",
+          "hash": "DPstuc1xSWv9In8mcWqZlO+T4kQTpm1KZRLRLU6+Nb8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html",
+          "hash": "mqD9UjpmcWauZcy3dy0ghc6q4r0hzyP8/6m8WLFv2nI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.html",
+          "hash": "sl42Z1tj9cNCakGhpP0YHElnC4oSaSDYxYzlpydTchY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.Hosting.HostBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.Hosting.HostBuilderExtensions.html",
+          "hash": "5vteQsAxs4IlIcovf5WUw2ghx0sj+T/ygsOLvVA3u2c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.Hosting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.Hosting.html",
+          "hash": "4oBoGROPwYqUusb082bXKIj83NQdvBxQWr423BK4hVs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "gdXTGrY8poWbt3vaDfMsohVOgFoMCHm49fIEA4e4+Po="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "SVN9gFEzR9LxMmEW+obh7adzAhZYm4TH5AcuwQuia/c="
+          "hash": "Zvkh/HfcqcTEdJ8/s+rgkmNffR+dOVdqNIksMVBrnFI="
         }
       },
       "is_incremental": false,
@@ -45,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "OgOIdp+68sKjWkO8X7/eMKamv9SPvmhi1lIB7IfCk/4="
+          "hash": "3lFGsZn+vpYCWz7OututIOBGsz91XMn2mjINvNxc584="
         }
       },
       "is_incremental": false,
@@ -113,22 +374,19 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "TBLbE0ZTF2BPS/w9w8fjsOeE/5a56uLbIYvkiX5bA1o="
+          "hash": "rkZYKRqPo63zVnV+7nsvzJIeTq+yQQGvhQgxCOkUngk="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "UidNotFound"
-      ],
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "2JR22rExAOoxXODV5+YE3qt0HiZfr+FNlKAXSi76YgI="
+          "hash": "odO0B2/vYMZoVXDqsxHiJzJYgdfA0Dk5ICCGj5xff54="
         }
       },
       "is_incremental": false,
@@ -150,6 +408,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 22,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
