@@ -264,19 +264,19 @@ references:
   commentId: T:CG.Sms.Strategies.DoNothing.ServiceCollectionExtensions
   fullName: CG.Sms.Strategies.DoNothing.ServiceCollectionExtensions
   nameWithType: ServiceCollectionExtensions
-- uid: CG.Sms.Strategies.DoNothing.ServiceCollectionExtensions.AddDoNothingStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
-  name: AddDoNothingStrategies(IServiceCollection, IConfiguration, ServiceLifetime)
-  href: api/CG.Sms.Strategies.DoNothing.ServiceCollectionExtensions.html#CG_Sms_Strategies_DoNothing_ServiceCollectionExtensions_AddDoNothingStrategies_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_Microsoft_Extensions_DependencyInjection_ServiceLifetime_
-  commentId: M:CG.Sms.Strategies.DoNothing.ServiceCollectionExtensions.AddDoNothingStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
-  fullName: CG.Sms.Strategies.DoNothing.ServiceCollectionExtensions.AddDoNothingStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
-  nameWithType: ServiceCollectionExtensions.AddDoNothingStrategies(IServiceCollection, IConfiguration, ServiceLifetime)
-- uid: CG.Sms.Strategies.DoNothing.ServiceCollectionExtensions.AddDoNothingStrategies*
-  name: AddDoNothingStrategies
-  href: api/CG.Sms.Strategies.DoNothing.ServiceCollectionExtensions.html#CG_Sms_Strategies_DoNothing_ServiceCollectionExtensions_AddDoNothingStrategies_
-  commentId: Overload:CG.Sms.Strategies.DoNothing.ServiceCollectionExtensions.AddDoNothingStrategies
+- uid: CG.Sms.Strategies.DoNothing.ServiceCollectionExtensions.AddDoNothingSmsStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  name: AddDoNothingSmsStrategies(IServiceCollection, IConfiguration, ServiceLifetime)
+  href: api/CG.Sms.Strategies.DoNothing.ServiceCollectionExtensions.html#CG_Sms_Strategies_DoNothing_ServiceCollectionExtensions_AddDoNothingSmsStrategies_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_Microsoft_Extensions_DependencyInjection_ServiceLifetime_
+  commentId: M:CG.Sms.Strategies.DoNothing.ServiceCollectionExtensions.AddDoNothingSmsStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  fullName: CG.Sms.Strategies.DoNothing.ServiceCollectionExtensions.AddDoNothingSmsStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  nameWithType: ServiceCollectionExtensions.AddDoNothingSmsStrategies(IServiceCollection, IConfiguration, ServiceLifetime)
+- uid: CG.Sms.Strategies.DoNothing.ServiceCollectionExtensions.AddDoNothingSmsStrategies*
+  name: AddDoNothingSmsStrategies
+  href: api/CG.Sms.Strategies.DoNothing.ServiceCollectionExtensions.html#CG_Sms_Strategies_DoNothing_ServiceCollectionExtensions_AddDoNothingSmsStrategies_
+  commentId: Overload:CG.Sms.Strategies.DoNothing.ServiceCollectionExtensions.AddDoNothingSmsStrategies
   isSpec: "True"
-  fullName: CG.Sms.Strategies.DoNothing.ServiceCollectionExtensions.AddDoNothingStrategies
-  nameWithType: ServiceCollectionExtensions.AddDoNothingStrategies
+  fullName: CG.Sms.Strategies.DoNothing.ServiceCollectionExtensions.AddDoNothingSmsStrategies
+  nameWithType: ServiceCollectionExtensions.AddDoNothingSmsStrategies
 - uid: CG.Sms.Strategies.ISmsStrategy
   name: ISmsStrategy
   href: api/CG.Sms.Strategies.ISmsStrategy.html
@@ -412,12 +412,12 @@ references:
   commentId: T:Microsoft.Extensions.Hosting.HostBuilderExtensions
   fullName: Microsoft.Extensions.Hosting.HostBuilderExtensions
   nameWithType: HostBuilderExtensions
-- uid: Microsoft.Extensions.Hosting.HostBuilderExtensions.AddSms(Microsoft.Extensions.Hosting.IHostBuilder)
-  name: AddSms(IHostBuilder)
-  href: api/Microsoft.Extensions.Hosting.HostBuilderExtensions.html#Microsoft_Extensions_Hosting_HostBuilderExtensions_AddSms_Microsoft_Extensions_Hosting_IHostBuilder_
-  commentId: M:Microsoft.Extensions.Hosting.HostBuilderExtensions.AddSms(Microsoft.Extensions.Hosting.IHostBuilder)
-  fullName: Microsoft.Extensions.Hosting.HostBuilderExtensions.AddSms(Microsoft.Extensions.Hosting.IHostBuilder)
-  nameWithType: HostBuilderExtensions.AddSms(IHostBuilder)
+- uid: Microsoft.Extensions.Hosting.HostBuilderExtensions.AddSms(Microsoft.Extensions.Hosting.IHostBuilder,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  name: AddSms(IHostBuilder, ServiceLifetime)
+  href: api/Microsoft.Extensions.Hosting.HostBuilderExtensions.html#Microsoft_Extensions_Hosting_HostBuilderExtensions_AddSms_Microsoft_Extensions_Hosting_IHostBuilder_Microsoft_Extensions_DependencyInjection_ServiceLifetime_
+  commentId: M:Microsoft.Extensions.Hosting.HostBuilderExtensions.AddSms(Microsoft.Extensions.Hosting.IHostBuilder,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  fullName: Microsoft.Extensions.Hosting.HostBuilderExtensions.AddSms(Microsoft.Extensions.Hosting.IHostBuilder, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  nameWithType: HostBuilderExtensions.AddSms(IHostBuilder, ServiceLifetime)
 - uid: Microsoft.Extensions.Hosting.HostBuilderExtensions.AddSms*
   name: AddSms
   href: api/Microsoft.Extensions.Hosting.HostBuilderExtensions.html#Microsoft_Extensions_Hosting_HostBuilderExtensions_AddSms_
