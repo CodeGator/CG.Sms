@@ -1,8 +1,6 @@
-﻿using CG.Sms;
-using CG.Validations;
+﻿using CG.Validations;
 using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.Linq;
 
 namespace Microsoft.Extensions.Hosting
 {
@@ -23,12 +21,14 @@ namespace Microsoft.Extensions.Hosting
         /// builder.
         /// </summary>
         /// <param name="hostBuilder">The host builder to use for the operation.</param>
+        /// <param name="serviceLifetime">The service lifetime to use for the service.</param>
         /// <returns>The value of the <paramref name="hostBuilder"/> parameter, 
         /// for chaining calls together.</returns>
         /// <exception cref="ArgumentException">This exception is thrown whenever
         /// one or more of the required parameters is missing or invalid.</exception>
         public static IHostBuilder AddSms(
-            this IHostBuilder hostBuilder
+            this IHostBuilder hostBuilder,
+            ServiceLifetime serviceLifetime = ServiceLifetime.Singleton
             )
         {
             // Validate the parameters before attempting to use them.
@@ -43,7 +43,10 @@ namespace Microsoft.Extensions.Hosting
                     );
 
                 // Use the section to configure the sms service.
-                serviceCollection.AddSms(section);
+                serviceCollection.AddSms(
+                    section,
+                    serviceLifetime
+                    );
             });
 
             // Return the builder.

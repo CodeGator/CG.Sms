@@ -1,6 +1,4 @@
-﻿using CG.Configuration;
-using CG.Sms;
-using CG.Sms.Properties;
+﻿using CG.Sms;
 using CG.Validations;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -34,7 +32,7 @@ namespace Microsoft.Extensions.DependencyInjection
         public static IServiceCollection AddSms(
             this IServiceCollection serviceCollection,
             IConfiguration configuration,
-            ServiceLifetime serviceLifetime = ServiceLifetime.Scoped
+            ServiceLifetime serviceLifetime = ServiceLifetime.Singleton
             )
         {
             // Validate the parameters before attempting to use them.
@@ -42,18 +40,24 @@ namespace Microsoft.Extensions.DependencyInjection
                 .ThrowIfNull(configuration, nameof(configuration));
 
             // Register the service.
-            serviceCollection.Add(
-                new ServiceDescriptor(
-                    typeof(ISmsService),
-                    typeof(SmsService),
-                    serviceLifetime
-                    )
-                );
+            switch (serviceLifetime)
+            {
+                case ServiceLifetime.Singleton:
+                    serviceCollection.AddSingleton<ISmsService, SmsService>();
+                    break;
+                case ServiceLifetime.Scoped:
+                    serviceCollection.AddScoped<ISmsService, SmsService>();
+                    break;
+                case ServiceLifetime.Transient:
+                    serviceCollection.AddTransient<ISmsService, SmsService>();
+                    break;
+            }
 
             // Register the strategy(s).
             serviceCollection.AddStrategies(
                 configuration,
-                serviceLifetime
+                serviceLifetime,
+                "Sms" 
                 );
 
             // Return the service collection.
