@@ -41,8 +41,7 @@ namespace CG.Sms
             // Call the use method for the strategy.
             applicationBuilder.UseStrategies(
                 hostEnvironment,
-                configuration,
-                "Sms"
+                configuration
                 );
 
             // Return the application builder.
